@@ -1,0 +1,63 @@
+/*.color-primary-0 { color: #609732 }  Main Primary color 
+.color-primary-1 { color: #BAE397 }
+.color-primary-2 { color: #8ABD5F }
+.color-primary-3 { color: #3E7213 }
+.color-primary-4 { color: #224C00 }
+*/
+
+.bar {
+    fill: #609732;
+}
+
+.bar:hover {
+    fill: #224C00 ;
+}
+
+#tooltip {
+    position: absolute;
+}
+
+body {
+    background-color: #609732;
+    margin: auto;
+    /*min-width: 1000px;*/
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+#bar-chart {
+    width: 100vw;
+    text-align: center;
+}
+
+svg {
+    background-color: white;
+    border-radius: 2em;
+}
+
+footer {
+    color: #224C00;
+    text-align: center;
+}
+
+#creater {
+    text-decoration: none;
+    color: white;
+}
+
+#tooltip {
+    background-color: #BAE397;
+    border-radius: 1.5em;
+    padding: 1em;
+}
+
